@@ -135,7 +135,8 @@ p {
   position: fixed;
   right: 20px;
   top: 10px;
-  width: 400px;
+  max-width: 400px;
+  width: 60%;
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.6);
   transition: top 0.5s ease;
@@ -166,6 +167,11 @@ p {
 }
 #paral_nav ul li a.on {
   background-color: rgba(235, 10, 10, 0.7);
+}
+
+
+#paral section {
+  min-height: 900px;
 }
 /* -----------------------------------섹션1 ------------------------------*/
 #paral #section1 {
@@ -199,11 +205,11 @@ p {
   align-items: center;
 }
 #paral #section2 article {
-  /* max-width: 1400px;
+  max-width: 1400px;
   max-height: 900px;
   width: calc(100% -40px);
   height: calc(100% -40px);
-  padding: 30px; */
+  padding: 30px;
   /* border: 1px solid red; */
   box-sizing: border-box;
   display: flex;
@@ -443,7 +449,7 @@ margin: 3%;
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.9);
 }
-#paral #horizontal #section6 #modal>p{
+/* #paral #horizontal #section6 #modal>p{
   position: absolute;
   z-index: 500;
   top: 28%;
@@ -484,7 +490,7 @@ margin: 3%;
 #paral #horizontal #section6 #modal #carousel .carousel_inner .carousel_item img{
   width: 40%;
   margin-left: 30%;
-}
+} */
 
 /* -------------------------------------------------섹션7--------------------------- */
 #section7 {
