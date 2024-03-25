@@ -136,7 +136,7 @@ p {
   right: 20px;
   top: 10px;
   max-width: 400px;
-  width: 60%;
+  width: 70%;
   z-index: 999;
   background-color: rgba(255, 255, 255, 0.6);
   transition: top 0.5s ease;
@@ -171,7 +171,7 @@ p {
 
 
 #paral section {
-  min-height: 600px;
+  min-height: 350px;
 }
 /* -----------------------------------섹션1 ------------------------------*/
 #paral #section1 {
@@ -268,7 +268,7 @@ margin: 3%;
 }
 #paral #section2 article .row .col-md-8 .row .col-md-6 > p {
   color: rgb(0, 0, 0);
-  font-size: 100%;
+  font-size: 80%;
   line-height: 30px;
   font-family: '한국기계연구원_bold';
 }
