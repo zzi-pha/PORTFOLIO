@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face { 
   font-family: "ThickedyGrunge";
-  src: url("/src/font/ThickedyGrunge-xY35.ttf") format("truetype");
+  src: url("../font/ThickedyGrunge-xY35.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face { 
   font-family: "한국기계연구원_bold";
-  src: url("/src/font/한국기계연구원_bold.ttf") format("truetype");
+  src: url("../font/한국기계연구원_bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face { 
   font-family: "한국기계연구원_light";
-  src: url("/src/font/한국기계연구원_Light.ttf") format("truetype");
+  src: url("../font/한국기계연구원_Light.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
@@ -490,7 +490,7 @@ margin: 3%;
 #section7 {
   overflow: hidden;
   background: #000000;
-  cursor: url(/src/img/cursor/persimmon3232.png), auto;
+  cursor: url(../img/cursor/persimmon3232.png), auto;
   /* cursor: url('/src/img/cursor/mango.png')6 6,auto;
   pointer-events: none;   */
 }

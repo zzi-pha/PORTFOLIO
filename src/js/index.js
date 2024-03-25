@@ -644,7 +644,7 @@ animateTitle("KIM SUNG HUN Portfolio");
 
 // favicon
 
-var faviconRoute = "/src/img/favicon/";
+var faviconRoute = "src/img/favicon/";
 var faviconNames = [
   "s1.png",
   "s5.png",
@@ -676,22 +676,22 @@ function func() {
 
 
 // section6 모달
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const carousel = document.querySelector('.carousel_inner');
+// const prevButton = document.querySelector('.prev');
+// const nextButton = document.querySelector('.next');
+// const carousel = document.querySelector('.carousel_inner');
 
-let index = 0;
+// let index = 0;
 
-prevButton.addEventListener('click', () => {
-   if (index === 0) return;
-   index -= 1;
+// prevButton.addEventListener('click', () => {
+//    if (index === 0) return;
+//    index -= 1;
    
-   carousel.style.transform = `translate3d(-${1222 * index}px, 0, 0)`;
-});
+//    carousel.style.transform = `translate3d(-${1222 * index}px, 0, 0)`;
+// });
 
-nextButton.addEventListener('click', () => {
-   if (index === 4) return;
-   index += 1;
+// nextButton.addEventListener('click', () => {
+//    if (index === 4) return;
+//    index += 1;
    
-   carousel.style.transform = `translate3d(-${1222 * index}px, 0, 0)`;
-});
+//    carousel.style.transform = `translate3d(-${1222 * index}px, 0, 0)`;
+// });
