@@ -171,7 +171,7 @@ p {
 
 
 #paral section {
-  min-height: 900px;
+  min-height: 600px;
 }
 /* -----------------------------------섹션1 ------------------------------*/
 #paral #section1 {
@@ -268,7 +268,7 @@ margin: 3%;
 }
 #paral #section2 article .row .col-md-8 .row .col-md-6 > p {
   color: rgb(0, 0, 0);
-  font-size: 16px;
+  font-size: 100%;
   line-height: 30px;
   font-family: '한국기계연구원_bold';
 }
@@ -299,9 +299,11 @@ margin: 3%;
   display: flex;
   flex-wrap: nowrap;
   width: 400%;
+  min-width: 800px;
 }
 #horizontal > section {
   width: 100%;
+  min-width: 200px;
 }
 /* ------------------- 호버------------------------------------------------ */
 #paral #horizontal section article .row .pic{
